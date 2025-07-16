@@ -1,0 +1,8 @@
+# dictionary have a key and value
+customer= {}
+customer["name"] = "Ola"
+customer["age"] = "26"
+customer["amount"] = "5000"
+
+print(customer["amount"])
+print(customer["name"])
