@@ -1,4 +1,5 @@
 # A simple calculator app
+
 print('''**********************
 1. Addition
 2. Subtraction
@@ -45,3 +46,8 @@ div = float(first_number) /  float(second_number)
 print(f"{first_number} / {second_number} = {div}")
 print("**********************")
 print("Exponential")
+first_number = input("First Number:")
+second_number = input("Second Number:")
+exp = float(first_number) **  float(second_number)
+print(f"{first_number} ** {second_number} = {exp}")
+
