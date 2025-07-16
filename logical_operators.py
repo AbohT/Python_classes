@@ -6,7 +6,13 @@ second_number = 6
 # And operator owrks that if all operands are T output is T if eiher is T/F output is F, if both are F output is F
 # Operand and operator
 
+'''
 if first_number or second_number:
 	print("Valid operation")
+'''
 
+#Arithmetic Operations
+# Plus + < it is an  overloaded (many functions opertaor; str, int, float, concatenate) >
+# Mul *
+# Sub -
 
