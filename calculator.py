@@ -14,7 +14,7 @@ first_number = float(input("First Number:"))
 # prompt uswer to input second number
 second_number = float(input("Second Number:"))
 sum = first_number + second_number
-print(f"{first_number} + {second_number} = {sum}")
+print(f"{first_number} + {second_number} = {sum:.2f}")
 
 print("*************************")
 print('Subtraction')
@@ -24,7 +24,7 @@ first_number = float(input("First Number:"))
 # prompt uswer to input second number
 second_number = float(input("Second Number:"))
 sub = first_number - second_number
-print(f"{first_number} - {second_number} = {sub}")
+print(f"{first_number} - {second_number} = {sub:.2f}")
 
 print("**********************")
 print('Multiplication')
@@ -34,7 +34,7 @@ first_number = float(input("First Number:"))
 # prompt uswer to input second number
 second_number = float(input("Second Number:"))
 mul = first_number * second_number
-print(f"{first_number} * {second_number} = {mul}")
+print(f"{first_number} * {second_number} = {mul:.2f}")
 
 print("**********************")
 print("Enter two numbers to divide")
@@ -43,11 +43,11 @@ first_number = input("First Number:")
 # prompt uswer to input second number
 second_number = input("Second Number:")
 div = float(first_number) /  float(second_number)
-print(f"{first_number} / {second_number} = {div}")
+print(f"{first_number} / {second_number} = {div:.2f}")
 print("**********************")
 print("Exponential")
 first_number = input("First Number:")
 second_number = input("Second Number:")
 exp = float(first_number) **  float(second_number)
-print(f"{first_number} ** {second_number} = {exp}")
+print(f"{first_number} ** {second_number} = {exp:.2f}")
 
