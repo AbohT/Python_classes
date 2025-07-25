@@ -1,5 +1,5 @@
 # Use country names as varibales
-country1 = "Aus"
+country1 = "Australia"
 country2 = "Malawi"
 country3 = "Russsia"
 country4 = "Nigeria"
